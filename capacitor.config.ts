@@ -2,7 +2,7 @@ import { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
   appId: 'io.ionic.starter',
-  appName: 'capacitor-camera-preview-test',
+  appName: 'capacitor-native-audio-test',
   webDir: 'dist',
   server: {
     androidScheme: 'https'
