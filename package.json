@@ -57,7 +57,7 @@
     "@capacitor/ios": "^5.7.0",
     "@capacitor/keyboard": "5.0.8",
     "@capacitor/status-bar": "5.0.7",
-    "@capgo/native-audio": "file:../capacitor-native-audio",
+    "@capgo/native-audio": "7.3.12",
     "@ionic/vue": "^7.0.0",
     "@ionic/vue-router": "^7.0.0",
     "ionicons": "^7.0.0",
