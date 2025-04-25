@@ -1,34 +1,32 @@
 PODS:
-  - Capacitor (5.7.0):
+  - Capacitor (7.2.0):
     - CapacitorCordova
-  - CapacitorApp (5.0.7):
+  - CapacitorApp (7.0.1):
     - Capacitor
-  - CapacitorCommunityCameraPreview (5.0.0):
+  - CapacitorCordova (7.2.0)
+  - CapacitorHaptics (7.0.1):
     - Capacitor
-  - CapacitorCordova (5.7.0)
-  - CapacitorHaptics (5.0.7):
+  - CapacitorKeyboard (7.0.1):
     - Capacitor
-  - CapacitorKeyboard (5.0.8):
+  - CapacitorStatusBar (7.0.1):
     - Capacitor
-  - CapacitorStatusBar (5.0.7):
+  - CapgoNativeAudio (7.3.21):
     - Capacitor
 
 DEPENDENCIES:
   - "Capacitor (from `../../node_modules/@capacitor/ios`)"
   - "CapacitorApp (from `../../node_modules/@capacitor/app`)"
-  - CapacitorCommunityCameraPreview (from `../../../capacitor-camera-preview`)
   - "CapacitorCordova (from `../../node_modules/@capacitor/ios`)"
   - "CapacitorHaptics (from `../../node_modules/@capacitor/haptics`)"
   - "CapacitorKeyboard (from `../../node_modules/@capacitor/keyboard`)"
   - "CapacitorStatusBar (from `../../node_modules/@capacitor/status-bar`)"
+  - CapgoNativeAudio (from `../../../capacitor-native-audio`)
 
 EXTERNAL SOURCES:
   Capacitor:
     :path: "../../node_modules/@capacitor/ios"
   CapacitorApp:
     :path: "../../node_modules/@capacitor/app"
-  CapacitorCommunityCameraPreview:
-    :path: "../../../capacitor-camera-preview"
   CapacitorCordova:
     :path: "../../node_modules/@capacitor/ios"
   CapacitorHaptics:
@@ -37,16 +35,18 @@ EXTERNAL SOURCES:
     :path: "../../node_modules/@capacitor/keyboard"
   CapacitorStatusBar:
     :path: "../../node_modules/@capacitor/status-bar"
+  CapgoNativeAudio:
+    :path: "../../../capacitor-native-audio"
 
 SPEC CHECKSUMS:
-  Capacitor: fc155ee2ee45a2093d716f13cf5aa5a865e2d85a
-  CapacitorApp: 17fecd0e6cb23feafac7eb0939417389038b0979
-  CapacitorCommunityCameraPreview: eca28d016cacfd5efc538f8333fdb5b60e5372d2
-  CapacitorCordova: e825fce1a2e14e4b5730641c7e098dccf74397b7
-  CapacitorHaptics: 7c7c206f0c96a628fed073830c96d28c4b2e772e
-  CapacitorKeyboard: aec619a578235c6ce279075009a2689c2cf5c42c
-  CapacitorStatusBar: f390fbb49b82ffb754ea4b3cf71dc8b048baf3e7
+  Capacitor: 03bc7cbdde6a629a8b910a9d7d78c3cc7ed09ea7
+  CapacitorApp: febecbb9582cb353aed037e18ec765141f880fe9
+  CapacitorCordova: 5967b9ba03915ef1d585469d6e31f31dc49be96f
+  CapacitorHaptics: 1f1e17041f435d8ead9ff2a34edd592c6aa6a8d6
+  CapacitorKeyboard: 09fd91dcde4f8a37313e7f11bde553ad1ed52036
+  CapacitorStatusBar: 6e7af040d8fc4dd655999819625cae9c2d74c36f
+  CapgoNativeAudio: 01e7866fa2a268dc9842a2d14f99805ea5d76377
 
-PODFILE CHECKSUM: fe4bffa397a413472204a9cd5e2c69a9bb00aae0
+PODFILE CHECKSUM: ff9d506803dfa48e7ff39c1ac669c91eb74d6a47
 
-COCOAPODS: 1.13.0
+COCOAPODS: 1.16.2

@@ -6,20 +6,13 @@ To run the provided example:
 
 ```bash
 git clone https://github.com/dpa99c/capacitor-native-audio-test.git
+git clone https://github.com/dpa99c/capgo-native-audio.git
 cd capacitor-native-audio-test
 npm install
 ```
 
-Then, to run the example on Android:
+Then run the example:
 
-```bash
-npm run cap:build:android
-npm run cap:run:android
-```
-
-Or, to run the example on iOS:
-
-```bash
-npm run cap:build:ios
-npm run cap:run:ios
-```
+- Web: `npm run build && npm run serve`
+- Android: `npm run cap:build:android && npm run cap:run:android`
+- iOS: `npm run cap:build:ios && npm run cap:run:ios`
