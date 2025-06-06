@@ -140,7 +140,9 @@ const pause = async () => {
     console.log(`Pausing audio ${selectedSound.value}`);
 
     await NativeAudio.pause({
-      assetId: selectedSound.value
+      assetId: selectedSound.value,
+      fadeOut: shouldFadeOut.value,
+      fadeOutDuration: fadeOutDuration.value
     });
   }catch (error:any){
     console.error(`Error pausing audio ${selectedSound.value}`, error);
@@ -154,7 +156,9 @@ const resume = async () => {
     console.log(`Resuming audio ${selectedSound.value}`);
 
     await NativeAudio.resume({
-      assetId: selectedSound.value
+      assetId: selectedSound.value,
+      fadeIn: shouldFadeIn.value,
+      fadeInDuration: fadeInDuration.value
     });
   }catch (error:any){
     console.error(`Error resuming audio ${selectedSound.value}`, error);
