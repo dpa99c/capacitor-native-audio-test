@@ -360,6 +360,9 @@ const onCurrentTime = async (currentTimeResult:any) => {
 onMounted(async () => {
   await NativeAudio.addListener('complete', onComplete);
   await NativeAudio.addListener('currentTime', onCurrentTime);
+  await NativeAudio.setDebugMode({
+    enabled: true
+  });
 
   // alias default volume adjustment function onto window object so it can be overridden
   (window as any)['adjustVolume'] = defaultAdjustVolume;
