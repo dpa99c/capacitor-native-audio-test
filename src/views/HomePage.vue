@@ -291,6 +291,7 @@ const getTimeStep = () => {
 
 const onStopped = () => {
   isPlaying.value = false;
+  isPaused.value = false;
   time.value = 0;
 }
 
