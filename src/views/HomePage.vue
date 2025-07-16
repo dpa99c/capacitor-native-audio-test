@@ -81,6 +81,7 @@ const play = async () => {
 
     console.debug(`Playing audio ${selectedSound.value}`)
     isPlaying.value = true;
+    isPaused.value = false;
     if(loop.value) {
       await NativeAudio.loop({
         assetId: selectedSound.value
@@ -290,6 +291,7 @@ const getTimeStep = () => {
 }
 
 const onStopped = () => {
+  console.log(`Audio stopped: ${selectedSound.value}`);
   isPlaying.value = false;
   isPaused.value = false;
   time.value = 0;
