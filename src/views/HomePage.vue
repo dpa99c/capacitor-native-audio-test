@@ -569,14 +569,12 @@ onMounted(async () => {
 <style scoped lang="scss">
 ion-content {
   --background: transparent;
-
-  &, #content {
-    overflow: hidden;
-  }
+  --padding-bottom: calc(var(--ion-safe-area-bottom, 0px) + 6rem);
 }
 
 #content-inner {
-  height: 100%;
+  min-height: 100%;
+  padding-bottom: 1rem;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
