@@ -1,16 +1,16 @@
 PODS:
-  - Capacitor (7.3.0):
+  - Capacitor (8.1.0):
     - CapacitorCordova
-  - CapacitorApp (7.0.1):
+  - CapacitorApp (8.0.1):
     - Capacitor
-  - CapacitorCordova (7.3.0)
-  - CapacitorHaptics (7.0.1):
+  - CapacitorCordova (8.1.0)
+  - CapacitorHaptics (8.0.0):
     - Capacitor
-  - CapacitorKeyboard (7.0.1):
+  - CapacitorKeyboard (8.0.0):
     - Capacitor
-  - CapacitorStatusBar (7.0.1):
+  - CapacitorStatusBar (8.0.1):
     - Capacitor
-  - CapgoNativeAudio (7.3.26):
+  - CapgoNativeAudio (8.2.12):
     - Capacitor
 
 DEPENDENCIES:
@@ -39,13 +39,13 @@ EXTERNAL SOURCES:
     :path: "../../../capacitor-native-audio"
 
 SPEC CHECKSUMS:
-  Capacitor: 8585c18a230122906e114ba5f6325ec65ee1371f
-  CapacitorApp: febecbb9582cb353aed037e18ec765141f880fe9
-  CapacitorCordova: 2685f5c43675793b5f06dfd66b3b26268f003b97
-  CapacitorHaptics: 1f1e17041f435d8ead9ff2a34edd592c6aa6a8d6
-  CapacitorKeyboard: 09fd91dcde4f8a37313e7f11bde553ad1ed52036
-  CapacitorStatusBar: 6e7af040d8fc4dd655999819625cae9c2d74c36f
-  CapgoNativeAudio: b799fe9a4d9b80a6a5148eea611266abe4d244e4
+  Capacitor: 47b825120c6b8b6d6f9f053e9350a8960d436710
+  CapacitorApp: 942306cd1acf7774a00e89a3986af3a67c8cad7a
+  CapacitorCordova: e8b76fd95fc1e157775abc484c59cc0de464095d
+  CapacitorHaptics: 2079d9fa04c5a71e18663b4722323c304c58245c
+  CapacitorKeyboard: d7868c079a4d5277a3deca27a10a488fcbbb8b69
+  CapacitorStatusBar: 32206abd53b14f339763da26f71286deaa891e16
+  CapgoNativeAudio: 587ae9b3f5e2de31f88c5648e2dae3886ef42fe5
 
 PODFILE CHECKSUM: ff9d506803dfa48e7ff39c1ac669c91eb74d6a47
 
